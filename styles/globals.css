@@ -426,14 +426,13 @@ padding: 30px 65px;
 .product-detail-image{
   border-radius: 15px;
   background-color: #ebebeb;
-  opacity: 85%;
   width: 400px;
   height: 400px;
   cursor: pointer;
   transition: .3s ease-in-out;
 }
 .product-detail-image:hover{
-  opacity: 100%;
+  transform: scale(1.1);
 }
 .small-images-container{
   display: flex;
