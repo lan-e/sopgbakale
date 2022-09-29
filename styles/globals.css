@@ -572,7 +572,7 @@ padding: 6px;
   width: 1000px;
 margin: auto;
 margin-top: 160px;
-  background-color: #dcdcdc;
+  background-color: #ecd7bbc2;
   padding: 50px;
   border-radius: 15px;
   display: flex;
@@ -610,7 +610,7 @@ margin-top: 160px;
 }
 .success .description .email{
   margin-left: 5px;
-  color: #f02d34;
+  color: #915938;
 }
 .product-max-qty{
   margin-top: 10px;
