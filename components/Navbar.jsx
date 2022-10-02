@@ -11,6 +11,9 @@ const Navbar = () => {
       <p className='logo'>
         <Link href='/'>Samoopskrbno poljoprivredno gospodarstvo Bakale</Link>
       </p>
+      <p className='logo'>
+        <Link href='/about'>O nama</Link>
+      </p>
       <button type="button" className='cart-icon' onClick={() => setShowCart(true)}>
         <AiOutlineShopping/>
         <span className='cart-item-qty'>{totalQuantities}</span>
