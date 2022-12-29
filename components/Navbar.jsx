@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <p className='logo'>
-        <Link href='/'>Samoopskrbno poljoprivredno gospodarstvo Bakale</Link>
+        <Link href='/'>SOPG Bakale</Link>
       </p>
       <p className='logo'>
         <Link href='/about'>O nama</Link>

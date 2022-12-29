@@ -59,7 +59,7 @@ const ProductDetails = ({ product, products }) => {
           </div>
           <h4>Opis: </h4>
           <p>{details}</p>
-          <p className="price">{price} kn</p>
+          <p className="price">{price}€</p>
           <div className="quantity">
             <h3>Količina:</h3>
             <p className="quantity-desc">
