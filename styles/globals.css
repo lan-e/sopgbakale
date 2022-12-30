@@ -15,7 +15,8 @@ a {
 .main-container {
   max-width: 1400px;
   margin: auto;
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 40px; }
 
 .layout {
   padding-top: 10px; }
@@ -704,3 +705,7 @@ span.text-red {
   padding: 40px;
   flex-direction: column;
   text-align: justify; }
+
+.onama-image {
+  height: 350px;
+  width: 350px; }

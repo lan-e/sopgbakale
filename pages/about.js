@@ -43,23 +43,25 @@ const AboutUs = () => {
         </div>
       </div>
       <div class="onama-container">
-        <a>
-          <Image src={nasad} alt="nasad" height="300" width="300" />
+        <a class="onama-image">
+          <Image src={nasad} alt="onama" />
         </a>
-        <a>
-          <Image src={nasad2} alt="nasad" height="300" width="300" />
+        <a class="onama-image">
+          <Image src={nasad2} alt="onama" />
         </a>
         <a
+          class="onama-image"
           href="https://www.facebook.com/bakale5/posts/pfbid0Evnw3ohJUYEcbRWnPtmEqfUrNJ4JZ2MwCCVw4SU2d1M1y8gVDMPFaKBxyrAh5cHfl"
           target="_blank"
         >
-          <Image src={stroj} alt="nasad" height="300" width="300" />
+          <Image src={stroj} alt="onama" />
         </a>
         <a
+          class="onama-image"
           href="https://www.facebook.com/bakale5/posts/pfbid02mVVQhXHzBAZQY4zvxhPnJFDUpChQH45YmaV7BzkG8AnL1jHJACjEp7rBBCuiJLjzl"
           target="_blank"
         >
-          <Image src={zivo1} alt="nasad" height="300" width="300" />
+          <Image src={zivo1} alt="onama" class="onama-image" />
         </a>
       </div>
     </div>
