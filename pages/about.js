@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import nasad from "../src/nasad.png";
-import nasad2 from "../src/nasad2.png";
+import nasad from "../src/nasad.jpg";
+import nasad2 from "../src/nasad2.jpg";
 import zivo1 from "../src/zivo1.jpg";
 import stroj from "../src/stroj.jpg";
 const AboutUs = () => {
