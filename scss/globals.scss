@@ -129,7 +129,7 @@ width: 100%;
 }
 
 .hero-banner-container{
-  padding: 100px 40px;
+  padding: 80px 40px;
   background-color: burlywood;
   border-radius: 15px;
   position: relative;
@@ -154,18 +154,18 @@ width: 100%;
   h3{
     font-size: 4rem;
     margin-top: 4px;
+    margin-left: 8px;
   }
   h1{
     color: white;
     font-size: 10em;
-    margin-left: -20px;
     text-transform: uppercase;
   }
 }
 
 .hero-banner-image{
   position: absolute;
-  top: 5%;
+  top: 15%;
   right:10%;
   width: 350px;
 }
@@ -617,11 +617,33 @@ margin-top: 160px;
 
 @media screen and (max-width:800px) {
   .hero-banner-container{
-    height: 560px;
+    height: 450px;
+    button{
+      border-radius: 15px;
+     background-color: rgba(158, 78, 48, 0.733);
+     color: white;
+     border: none;
+     font-size: 32px;
+     font-weight: 500;
+     cursor: pointer;
+     z-index:10000 !important;
+     margin-left: 40px;
+   }
+   h3{
+     font-size: 4rem;
+     margin-top: 4px;
+     margin-left: 40px;
+    }
+   h1{
+     color: white;
+     font-size: 10em;
+     margin-left: 40px;
+     text-transform: uppercase;
+   }
   }
   .hero-banner-image{
-    width: 50;
-    height: 50;
+    width: 0;
+    height: 0;
   }
   .footer-banner-container{
     height: 560px;
