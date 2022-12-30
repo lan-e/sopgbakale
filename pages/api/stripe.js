@@ -25,7 +25,7 @@ export default async function handler(req, res) {
             .replace("-png", ".png");
           return {
             price_data: {
-              currency: "hrk",
+              currency: "eur",
               product_data: {
                 name: item.name,
                 images: [newImage],
