@@ -8,38 +8,39 @@ const AboutUs = () => {
   return (
     <div>
       <div class="text-container">
-        <h2>SOPG Bakale</h2>
-        <div>Osnovani smo 2017. godine kao OPG Bakale.</div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          aliquam nisl ut augue suscipit, eu pellentesque leo venenatis. Duis
-          ultricies placerat lacus sit amet dapibus. Curabitur ut leo id orci
-          tincidunt vulputate vitae fringilla nisi. Nullam porttitor dolor
-          dolor, in elementum nisi sollicitudin sit amet. Curabitur nec gravida
-          massa. Nulla lorem ante, hendrerit cursus diam vel, faucibus iaculis
-          urna. Donec a laoreet arcu. Suspendisse a diam eu ipsum sodales
-          imperdiet. Morbi ullamcorper sapien orci, a imperdiet arcu maximus
-          congue. Pellentesque consectetur dui sed arcu malesuada sagittis.
-          Nullam sodales efficitur convallis. Pellentesque aliquam odio quis
-          sollicitudin posuere. Quisque libero ipsum, ultricies vel varius quis,
-          faucibus sit amet lorem. Aenean iaculis ex nec arcu dignissim, ut
-          venenatis sem ullamcorper. In pulvinar sit amet libero ac congue.
-          Praesent condimentum tortor mauris, eget tristique lacus volutpat at.
-          Vivamus bibendum ullamcorper pharetra. Cras quis nunc vitae nibh
-          dignissim blandit id molestie metus. Curabitur ultrices ac nisi non
-          vestibulum. Cras ut pharetra ex. Suspendisse potenti. Ut ullamcorper
-          erat sem, quis commodo leo rutrum eu. In id erat dapibus, hendrerit
-          augue eget, pulvinar purus. Maecenas viverra et turpis eget malesuada.
-          Nunc id risus aliquam, vulputate augue quis, euismod mi. Curabitur
-          ultrices ac nisi non vestibulum. Cras ut pharetra ex. Suspendisse
-          potenti. Ut ullamcorper erat sem, quis commodo leo rutrum eu. In id
-          erat dapibus, hendrerit augue eget, pulvinar purus. Maecenas viverra
-          et turpis eget malesuada. Nunc id risus aliquam, vulputate augue quis,
-          euismod mi. Curabitur ultrices ac nisi non vestibulum. Cras ut
-          pharetra ex. Suspendisse potenti. Ut ullamcorper erat sem, quis
-          commodo leo rutrum eu. In id erat dapibus, hendrerit augue eget,
-          pulvinar purus. Maecenas viverra et turpis eget malesuada. Nunc id
-          risus aliquam, vulputate augue quis, euismod mi.
+        <div class="text-container-item-left">
+          <h2>SOPG Bakale</h2>
+          <div>Osnovani 2017. godine kao OPG Bakale.</div>
+          <div>
+            <h3>Kako i zašto?</h3>
+            Odluka o otvaranju OPG Bakale nastala je u potrebi što boljeg
+            iskorištenja zemlje u vlasništvu obitelji Bakale. Za prihod, ali
+            prvotno za potrebe vlastite obitelji. Hrvoje je sadnju ljeske
+            započeo već kao student pa je tako nasad star već 6 godina i donosi
+            plodove. Tu je imao potporu obitelji. Zajednički su odradili
+            pripremu tla - bušenje rupa, kupnju sadnica i samo sađenje.
+          </div>
+
+          <div>
+            <h3>Problemi?</h3>U poljoprivredi su najveći problem vremenski
+            uvjeti. Najveći problem je bio mraz, koji uništi sav trud i rad i ne
+            dobije se nikakav proizvod. Pokušavaju te probleme smanjiti kako ne
+            bi imali probleme u poslovanju, ali i razočarali kupce.
+          </div>
+          <div>
+            Hrvatska proizvodi samo 30-40% količine lješnjaka, dok se ostalo
+            uvozi. To je ovaj SOPG potaklo na uzgoj baš ove kulture. Ovaj
+            proizvod ne mora ići na tržište odmah nakon branja, već postoje
+            mogućnosti prerade.
+          </div>
+        </div>
+        <div class="text-container-item-right">
+          <h3>Budućnost?</h3>
+          Cilj je u budućnosti od lješnjaka proizvoditi ulje, brašno i maslac te
+          koru od lješnjaka pretvarati u energiju, tj. pelete za grijanje.
+          Trenutno već imaju mašinu koja pretvara granje koje se obrezuje u
+          biomasu. Tom biomasom suše se lješnjaci jer pelete koriste kao
+          ogrijevnu vrijednost.
         </div>
       </div>
       <div class="onama-container">
